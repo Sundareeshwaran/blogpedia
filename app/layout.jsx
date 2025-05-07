@@ -1,6 +1,7 @@
 import "@styles/globals.css";
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   metadataBase: new URL("https://blogpedia-six.vercel.app"),
@@ -55,6 +56,7 @@ const RootLayout = ({ children }) => {
                 Explore. Learn. Evolve. Blogpedia
               </p>
             </footer>
+            <SpeedInsights />
           </main>
         </Provider>
       </body>

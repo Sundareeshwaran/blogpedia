@@ -1,9 +1,7 @@
 import React from "react";
 import Link from "@node_modules/next/link";
-import { useSession } from "@node_modules/next-auth/react";
 
 const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
-  const { data: session } = useSession();
   return (
     <section className="w-full max-full flex-start flex-col">
       <h1 className="head_text text-left">
@@ -16,7 +14,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
 
       <form
         onSubmit={handleSubmit}
-        className="mt-10 w-full max-w-2xl flex flex-col gap-7 glassmorphism"
+        className="my-10 w-full max-w-2xl flex flex-col gap-7 glassmorphism"
       >
         <label>
           <h3 className="font-semibold text-base text-sb-950">
