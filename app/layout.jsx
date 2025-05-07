@@ -3,6 +3,7 @@ import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 
 export const metadata = {
+  metadataBase: new URL("https://blogpedia-six.vercel.app"),
   title: "Blogpedia",
   description:
     "Blogpedia is a community-driven platform for developers passionate about AI, Full Stack, and MERN technologies. Join us to learn, share, and grow.",
@@ -10,6 +11,29 @@ export const metadata = {
     icon: "/assets/images/logo.png",
     shortcut: "/assets/images/logo.png",
     apple: "/assets/images/logo.png",
+  },
+  openGraph: {
+    title: "Blogpedia",
+    description:
+      "Blogpedia is a community-driven platform for developers passionate about AI, Full Stack, and MERN technologies. Join us to learn, share, and grow.",
+    url: "https://blogpedia-six.vercel.app/",
+    siteName: "Blogpedia",
+    images: [
+      {
+        url: "https://blogpedia-six.vercel.app/assets/images/logo.png",
+        width: 630,
+        height: 630,
+        alt: "Blogpedia Banner",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blogpedia",
+    description:
+      "Blogpedia is a community-driven platform for developers passionate about AI, Full Stack, and MERN technologies. Join us to learn, share, and grow.",
+    images: ["https://blogpedia-six.vercel.app/assets/images/logo.png"],
   },
 };
 
