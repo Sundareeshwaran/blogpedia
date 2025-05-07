@@ -21,8 +21,8 @@ export const metadata = {
     images: [
       {
         url: "https://blogpedia-six.vercel.app/assets/images/logo.png",
-        width: 1200,
-        height: 630,
+        width: 680,
+        height: 1200,
         alt: "Blogpedia Banner",
       },
     ],
