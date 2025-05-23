@@ -52,9 +52,12 @@ const RootLayout = ({ children }) => {
             {children}
             <footer className="relative w-full">
               <hr className="text-sb-950/20" />
-              <p className="mt-2 font-bold md:text-lg text-base text-sb-950/70">
-                Explore. Learn. Evolve. Blogpedia
-              </p>
+              <div className="flex flex-row justify-between items-center w-full text-sb-950/70">
+                <p className="mt-2 font-bold md:text-lg text-base">
+                  Explore. Learn. Evolve. Blogpedia
+                </p>
+                <p className="font-medium text-base">v0.1</p>
+              </div>
             </footer>
             <SpeedInsights />
           </main>
