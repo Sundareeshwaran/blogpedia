@@ -56,7 +56,7 @@ const RootLayout = ({ children }) => {
                 <p className="mt-2 font-bold md:text-lg text-base">
                   Explore. Learn. Evolve. Blogpedia
                 </p>
-                <p className="font-medium text-base">v0.1</p>
+                <p className="font-medium text-base">v1.0</p>
               </div>
             </footer>
             <SpeedInsights />
