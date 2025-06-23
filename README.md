@@ -72,11 +72,14 @@ npm install
 Create a `.env.local` file and add:
 
 ```env
-MONGODB_URI=your_mongo_uri
+GOOGLE_ID=your_google_oauth_client_id
+GOOGLE_SECRET=your_google_oauth_client_secret
+MONGODB_URI=your_mongodb_connection_uri
 NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=your_auth_secret
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
+NEXTAUTH_URL_INTERNAL=http://localhost:3000
+NEXTAUTH_SECRET=your_nextauth_secret_key
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+
 ```
 
 ---
