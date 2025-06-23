@@ -1,7 +1,6 @@
 # 🧠 Blogpedia
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://blogpedia-six.vercel.app/)
-[![License](https://img.shields.io/github/license/Sundareeshwaran/blogpedia)](./LICENSE)
 
 **Blogpedia** is a community-driven platform for developers passionate about **AI**, **Full Stack**, and **MERN** technologies.  
 It empowers users to **write**, **share**, and **engage** with insightful content on modern web and AI trends.
