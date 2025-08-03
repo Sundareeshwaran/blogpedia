@@ -52,7 +52,7 @@ const BlogDetailPage = async ({ params }) => {
 
       {/* Blog Content */}
       <h1 className="text-3xl font-bold mb-2 text-sb-950">{blog.title}</h1>
-      <p className="text-sb-500 text-sm mb-4">#{blog.tag}</p>
+      <p className="text-sb-500 text-sm mb-4">{blog.tag}</p>
       <div className="text-md text-sb-950/90 whitespace-pre-line">
         {blog.blog}
       </div>
